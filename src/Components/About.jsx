@@ -16,27 +16,30 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/tea.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "turkish tea abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  ""Karmaşık büyük tablolara sahip veri tabanlarının analizi üzerine çalışmalara odaklanan bir araştırmacıyım. Veri madenciliği ve sıralı örüntü keşfi konularında derinlemesine çalışarak özellikle sağlık alanında yenilikçi çözümler üretmeyi amaçlıyorum."";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Veri madenciliği",
+  "Sıralı örüntü keşfi",
+  "Veritabanı yönetimi",
+  "Performans optimizasyonu",
+  "Linux sistem yönetimi",
+  "Veri modelleme ve analizi",
+  "Yapay zeka ve makine öğrenimi",
+  "SPSS Modeler",
+  "Veri görselleştirme",
 ];
 
 /**
@@ -45,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Veri analizi ve sistem yönetimi konusunda yaratıcı çözümler geliştirmeyi seviyorum. Karmaşık veriler üzerinde etkili analizler yapmanın yollarını keşfetmeye çalışıyorum.";
 
 const About = () => {
   return (
